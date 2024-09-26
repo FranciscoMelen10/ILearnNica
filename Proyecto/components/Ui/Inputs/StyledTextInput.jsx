@@ -31,7 +31,7 @@ export default function StyledTextInput({
     (phone && password)
   ) {
     throw new Error(
-      "hey! in StyledTextInput Only one type of input is allowed :V"
+      "hey! in StyledTextInput Only one type of input is allowed"
     );
   }
   const [showPassword, setShowPassword] = useState(false);
